@@ -23,7 +23,7 @@
     <artifactId>tomcat7-maven-plugin</artifactId>
     <version>2.2</version>
     <configuration>
-    <path>${project.artifactId}##${project.version}LWPLABS</path>
+    <path>${project.artifactId}##${project.version}</path>
         <url>http://localhost:8080/manager/text</url>
       <username>admin</username>
       <password>adminadmin</password>
